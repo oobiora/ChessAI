@@ -1,5 +1,0 @@
-﻿  Source.cpp
-c:\users\oobiora\documents\visual studio 2017\projects\chess ai\chess ai\source.cpp(393): warning C4715: 'empty_c': not all control paths return a value
-c:\users\oobiora\documents\visual studio 2017\projects\chess ai\chess ai\source.cpp(402): warning C4715: 'empty_r': not all control paths return a value
-  Chess AI.vcxproj -> c:\users\oobiora\documents\visual studio 2017\Projects\Chess AI\Debug\Chess AI.exe
-  Chess AI.vcxproj -> c:\users\oobiora\documents\visual studio 2017\Projects\Chess AI\Debug\Chess AI.pdb (Partial PDB)
