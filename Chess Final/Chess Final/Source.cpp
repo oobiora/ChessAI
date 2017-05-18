@@ -56,13 +56,17 @@ int cornerAI(int choice) {
 	return compRes;
 }
 
-/*int checkValid() {
-	bool b = false;
+int firstEdge(int choice) {
 
-	for (int i = 0; i < 5; i++)
-		b = b || cornerMoves[i] == 255;
+	if (choice == 2 || choice == 4 || choice == 6 || choice == 8)
+		compRes = 5;
+	
+
+	return compRes;
 }
-*/
+
+
+
 
 bool checkValid(int choice) {
 	bool b = false;
@@ -75,7 +79,18 @@ bool checkValid(int choice) {
 	return c;
 }
 
+bool posWin() {
 
+	int x; 
+	int y;
+
+	int y = 3;
+	int x = -y;
+
+
+	if (choice + x || choice + y)
+
+}
 
 int main() {
 
@@ -112,25 +127,29 @@ for (int i = 0; checkWin == 0; i++) {
 	}
 
 	
-	//CHECK FOR EDGE MOVE
+	//CHECK FOR BlOCK
+	// Block determined when win possible and player interrupts;
+
 	for (int i = 0; i < 1; i++) {
 
 		if (choice == 2 || choice == 4 || choice == 5 || choice == 6)
-			//cornerAI(choice);
+			firstEdge(choice);
 
 		board[compRes] = x;
 		cout << "ComputerMoves " << compRes;
 		break;
 	}
 
-	//NEW CHOICE INITIATED
+	//NEW CHOICE INITIATED  
 	cin >> choice;
 	checkValid(choice);
 
 	board[choice] = o;
 	cout << "Your Choice: " << choice;
 
-	*/
+
+
+	
 
 
 
