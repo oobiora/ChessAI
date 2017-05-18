@@ -79,7 +79,7 @@ bool checkValid(int choice) {
 	return c;
 }
 
-bool posWin() {
+/*bool posWin() {
 
 	int x; 
 	int y;
@@ -90,7 +90,7 @@ bool posWin() {
 
 	if (choice + x || choice + y)
 
-}
+}*/
 
 int main() {
 
